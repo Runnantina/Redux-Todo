@@ -1,6 +1,6 @@
-##To Do List
+## To Do List
 
-#Stack
+# Stack
 ReactJS | React-redux
 
 Enjoy!
