@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Redux Todo List</title>
+  </head>
+
+  <body>
+    <style>
+    	@import url('https://fonts.googleapis.com/css?family=Anton');
+  		input[type="text"] {
+  		  padding: 10px;
+  		  border: solid 5px #c9c9c9;
+  		  -webkit-transition: border 0.3s;
+  		  -moz-transition: border 0.3s;
+  		  -o-transition: border 0.3s;
+  		  transition: border 0.3s;
+  		}
+  		input[type="text"]:focus, input[type="text"].focus {
+  		  border: solid 5px #969696;
+  		}
+    	body{
+    		font-family: 'Anton', sans-serif;
+    	}
+    	ul {
+				list-style: none;
+    		margin: 0;
+    		padding: 0;
+			}
+			button{
+				padding: 2px;
+				margin-left: 10px;
+				background-color: white;
+				border: solid 5px #388571;
+				font-family: 'Anton', sans-serif;
+				font-size: 17px;
+				cursor: pointer;
+			}
+			.container{
+				border: dashed #afafaf;
+				display: block;
+				padding: 30px;
+				margin: 0 auto;
+				width: 490px;
+			}
+			.removeButton{
+				background-color: red;
+				border-radius: 5px;
+				color: white;
+				cursor: pointer;
+				display: inline-block;
+				line-height: 1.1;
+				margin-left: 20px;
+				padding: 0px 5px 1.5px 5px;
+			}
+			.listItem{
+				padding: 10px 10px 10px 0;
+			}
+			.listItemText{
+				display: block;
+    		float: left;
+			}
+    </style>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
